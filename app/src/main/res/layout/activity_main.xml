@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="748dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBaseline_toBaselineOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/eagle" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="249dp"
@@ -21,8 +31,8 @@
 
     <TextView
         android:id="@+id/latitude"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="33dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="19dp"
         android:ems="10"
@@ -80,7 +90,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/altitude" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
